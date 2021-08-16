@@ -11565,7 +11565,6 @@ fieldset:disabled .btn {
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #00cc99;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -11576,6 +11575,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .border-l {
@@ -11595,20 +11601,16 @@ a {
   margin-left: 32px;
 }
 
+.ml-47 {
+  margin-left: 47px;
+}
+
 .pl-28 {
   padding-left: 28px;
 }
 
 .pt-32 {
   padding-top: 32px;
-}
-
-.wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .nav-l {
@@ -11636,6 +11638,59 @@ a {
 
 .main {
   min-width: 984px;
+  margin-left: 296px;
+}
+
+.main .admin .h1 {
+  font-size: 1.5rem;
+}
+
+.main .admin a {
+  color: #198754;
+}
+
+.main .admin a p {
+  color: #212529;
+}
+
+.main .search a {
+  color: #212529;
+}
+
+.main .table tbody {
+  line-height: 55px;
+}
+
+.main .btn-group label {
+  color: #212529;
+  border: 1px solid #198754;
+}
+
+.main .btn-group label .btn:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+.main .btn-group .material-icons-outlined {
+  color: #198754;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 32px;
+}
+
+.topList {
+  padding: 32px 0;
+}
+
+.table thead .material-icons {
+  font-size: 20px;
+  color: #198754;
+}
+
+.table tbody .material-icons {
+  color: #212529;
 }
 
 /*# sourceMappingURL=all.css.map */
