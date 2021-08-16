@@ -1,0 +1,66 @@
+.main{
+    min-width: 984px ;
+    margin-left: 296px;
+    .admin{
+        .h1{
+            font-size:$h4-font-size;
+        }
+        a{
+            color: $success;
+            p{
+                color: $gray-900;
+            }
+        }
+    }
+    .search{
+        a{
+            color: $gray-900;
+        }
+        
+    }
+    .table{
+        tbody{
+            line-height: 55px;
+        }
+    }
+
+
+    .btn-group{
+        label{
+            color: $gray-900;
+            border: 1px solid $success;
+            .btn:hover{
+                background-color: $success; 
+                color: #fff;
+            }
+        }
+        .material-icons-outlined{
+            color: $success;
+
+        }
+    }
+    
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 32px;
+}
+
+.topList{
+    padding: 32px 0;
+}
+
+.table{
+    thead{
+        .material-icons{
+            font-size: 20px;
+            color: $success;
+        }
+    }
+    tbody{
+        .material-icons{
+            color: $gray-900;
+        }
+    }
+}

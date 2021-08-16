@@ -1,0 +1,30 @@
+.border-l{
+    border-left:  4px solid #198754 ;
+    border-left-style: none;
+    &:hover{
+        border-left-style:solid;
+    }  
+}
+
+//margin-bottom
+.mb-32{
+    margin-bottom: 32px;
+}
+
+//margin-left
+.ml-32{
+    margin-left: 32px;
+}
+.ml-47{
+    margin-left: 47px;
+}
+
+//padding-left
+.pl-28{
+    padding-left: 28px;
+}
+
+//padding-top
+.pt-32{
+    padding-top: 32px;
+}
